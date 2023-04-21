@@ -520,6 +520,11 @@ body {
         border-radius: 0px !important;
     }
 }
+@media (max-width: 912px) {
+    .carousel-caption h3 {
+        font-size: 70px;
+    }
+}
 @media (max-width: 894px) {
     .carousel-inner h3 {
         font-size: 50px;
@@ -540,5 +545,16 @@ body {
     }
     .ingredients .container .header h3 {
         font-size: 40px;
+    }
+}
+@media (max-width: 347px) {
+    .carousel-caption h3 {
+        font-size: 35px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+    }
+    .carousel-inner .button-1 {
+        font-size: 25px;
     }
 }

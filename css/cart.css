@@ -26,10 +26,9 @@
 .cart .product-title {
     font-size: 18px;
 }
-
-.address {
-    margin-top: 50px;
-    margin-left: 50px;
+.btn {
+    font-size: 20px;
+    font-weight: 500;
 }
 .form-check input {
     background-color: white;
@@ -42,14 +41,27 @@
     color: #82c55b;
     font-size: 30px;
 }
-.card-body input {
-    background-color: white;
-}
-.card-body input:focus {
-    background-color: #ed6436;
-}
 .totals {
+    margin-top: 50px;
     margin-left: 50px;
+}
+.totals h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.totals .totals-item {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.totals .totals-item label {
+    font-weight: 700;
+    font-size: 22px;
+    color: #ed6436;
+}
+.remove-product {
+    font-weight: 700;
+    border-radius: 5px;
 }
 .button-1 {
     position: relative;
@@ -60,6 +72,8 @@
     color: white;
     transition: 0.5s;
     font-size: 20px;
+    font-weight: 700;
+    left: 915px auto;
 }
 .button-1:hover {
     color: #ed6436;

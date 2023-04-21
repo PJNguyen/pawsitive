@@ -1,13 +1,15 @@
 .contact {
     margin-top: 150px;
 }
+.contact .map {
+    margin-right: 40px;
+}
 .contact .time {
     background-color: rgb(238, 238, 238);
     border: none;
     border-radius: 20px;
     width: 250px;
     height: 500px;
-    margin-left: 100px;
     text-align: center;
 }
 .contact .time img {

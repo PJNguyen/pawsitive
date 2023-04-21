@@ -13,3 +13,38 @@ img {
 .content2 p {
     margin-top: 20px;
 }
+.comment button {
+    transition: 0.5s;
+    background-color: white;
+    border: solid black;
+    color: black;
+    font-weight: 700;
+}
+.comment button:hover {
+    color: white;
+    background-color: #f47932;
+    border: solid #f47932;
+}
+.stars {
+    color: #ed6436;
+    transition: 0.5s;
+}
+.stars span:hover {
+    color: #ed6436;
+    transform: scale(1.3);
+}
+.stars .s1:hover ~ span {
+    color: silver;
+}
+.stars .s2:hover ~ span {
+    color: silver;
+}
+.stars .s3:hover ~ span {
+    color: silver;
+}
+.stars .s4:hover ~ span {
+    color: silver;
+}
+.stars .s5:hover ~ span {
+    color: silver;
+}

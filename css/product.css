@@ -107,11 +107,11 @@
 .product .search {
     margin-top: 20px;
 }
-.product .search ul li {
+.product .search ul li a {
     margin-bottom: 5px;
     transition: 0.5s;
     cursor: pointer;
 }
-.product .search ul li:hover {
+.product .search ul li a:hover {
     color: #ed6436;
 }

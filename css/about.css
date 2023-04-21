@@ -166,9 +166,10 @@
     color: white;
     transition: 0.5s;
     font-size: 20px;
+    font-weight: 700;
     display: inline-block;
     margin-top: 60px;
-    margin-left: 500px;
+    margin-left: 50px;
 }
 .gallery .container .header .button-1:hover {
     color: #f47932;
@@ -208,6 +209,9 @@
     }
 }
 @media (max-width: 880px) {
+    .carousel-caption h3 {
+        font-size: 60px;
+    }
     .welcome .time {
         margin-left: 70px;
     }
@@ -218,5 +222,37 @@
         display: flex;
         justify-content: center;
         margin: auto;
+    }
+}
+@media (max-width: 755px) {
+    .carousel-caption h3 {
+        font-size: 50px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 755px) {
+    .carousel-caption h3 {
+        font-size: 40px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 456px) {
+    .carousel-caption h3 {
+        font-size: 35px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+    }
+    .carousel-inner .button-1 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 368px) {
+    .carousel-caption h3 {
+        font-size: 30px;
     }
 }
