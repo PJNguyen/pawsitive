@@ -1,0 +1,52 @@
+.contact {
+    margin-top: 150px;
+}
+.contact .time {
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    margin-left: 100px;
+    text-align: center;
+}
+.contact .time img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contact .content {
+    margin-left: 15px;
+}
+.contact .title .text {
+    display: flex;
+    margin-bottom: 5px;
+}
+.contact .title .text h3 {
+    color: #f47932;
+    font-size: 20px;
+}
+.contact .title .text i {
+    color: black;
+    font-size: 30px;
+    width: 70px;
+}
+.contact .check-in {
+    margin-top: 150px;
+}
+
+.contact .check-in .header strong {
+    color: black;
+    font-weight: 700;
+}
+.contact .check-in .header h3 {
+    color: #f47932;
+    font-weight: 700;
+    font-size: 50px;
+}
+.contact .check-in .title {
+    margin-bottom: 20px;
+}
+.contact .check-in .title i {
+    color: #82c55b;
+    width: 40px;
+}

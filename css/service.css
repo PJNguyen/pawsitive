@@ -1,0 +1,22 @@
+.carousel-inner {
+    height: 50vh;
+}
+.service .content {
+    margin: 50px;
+}
+.service .content h3 {
+    color: #ed6436;
+}
+.service .content i {
+    margin-top: 50px;
+    font-size: 50px;
+    color: #82c55b;
+    transition: 0.5s;
+}
+.service .content i:hover {
+    color: white;
+    background-color: #ed6436;
+    border-radius: 20px;
+    padding: 5px;
+    transform: rotate(360deg);
+}

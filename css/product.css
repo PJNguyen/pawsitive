@@ -1,0 +1,117 @@
+.product {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.product .card {
+    border: none;
+}
+.product .card .thumb-big {
+    width: 80%;
+}
+.product .stars {
+    color: #ed6436;
+    transition: 0.5s;
+}
+.product .stars span:hover {
+    color: #ed6436;
+    transform: scale(1.3);
+}
+.product .stars .s1:hover ~ span {
+    color: silver;
+}
+.product .stars .s2:hover ~ span {
+    color: silver;
+}
+.product .stars .s3:hover ~ span {
+    color: silver;
+}
+.product .stars .s4:hover ~ span {
+    color: silver;
+}
+.product .stars .s5:hover ~ span {
+    color: silver;
+}
+.product .product-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+.product .product-description {
+    margin-top: 10px;
+}
+.product .product-description h3 {
+    font-weight: 700;
+}
+.product .price {
+    font-size: 35px;
+}
+.product .price p {
+    font-size: 30px;
+    color: #ed6436;
+    text-align: left;
+}
+.product .price p span {
+    color: rgb(136, 135, 135);
+    font-size: 25px;
+}
+.product .action a {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.product .action .button-1 {
+    padding: 10px;
+    border: solid #ed6436;
+    border-radius: 5px;
+    background-color: white;
+    color: #ed6436;
+    transition: 0.5s;
+}
+.product .action .button-1:hover {
+    background-color: #ed6436;
+    color: white;
+}
+.product .action button {
+    transition: 0.5s;
+    border: solid #ed6436;
+    color: #ed6436;
+    font-weight: 700;
+}
+.product .action button:hover {
+    color: white;
+}
+.product .similar {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.product .similar .header h3 {
+    font-weight: 700;
+}
+.product .similar .price p {
+    text-align: center;
+}
+.comment {
+    margin-left: 50px;
+}
+.comment .header h3 {
+    font-weight: 700;
+    color: black;
+}
+.comment .card {
+    width: 945px;
+    right: 300px;
+    margin-top: -80px;
+}
+.comment .card img {
+    width: 6%;
+    display: block;
+}
+.product .search {
+    margin-top: 20px;
+}
+.product .search ul li {
+    margin-bottom: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.product .search ul li:hover {
+    color: #ed6436;
+}

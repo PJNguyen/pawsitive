@@ -1,0 +1,39 @@
+.carousel-inner {
+    height: 50vh;
+}
+.carousel-inner h3 {
+    font-weight: 700;
+    font-size: 60px;
+}
+.product {
+    margin-top: 50px;
+}
+.product button {
+    background-color: white;
+    color: black;
+    border: solid black;
+    transition: 0.5s;
+}
+.product button:hover {
+    background-color: #ed6436;
+    border: solid #ed6436;
+}
+.product span i {
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    border: solid black;
+    border-radius: 0px 20px 20px 20px;
+    padding: 5px;
+    transition: 0.5s;
+}
+.product span i:hover {
+    background-color: #ed6436;
+    border: solid #ed6436;
+}
+.product .box input {
+    border-radius: 5px;
+}
+.product .list {
+    margin-top: 20px;
+}
